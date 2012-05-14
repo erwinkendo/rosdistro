@@ -124,6 +124,12 @@ python-qt-bindings:
     lucid: python-qt4 python-qt4-dev python-sip-dev python-qt4-gl
     oneiric: python-pyside.qtcore python-pyside.qtgui libpyside-dev libshiboken-dev shiboken libgenrunner-dev python-qt4 python-qt4-dev python-sip-dev python-qt4-gl
     precise: python-pyside.qtcore python-pyside.qtgui libpyside-dev libshiboken-dev shiboken libgenrunner-dev python-qt4 python-qt4-dev python-sip-dev python-qt4-gl
+python-qt-binding:
+  arch: python2-pyqt
+  ubuntu:
+    lucid: python-qt4 python-qt4-dev python-sip-dev python-qt4-gl
+    oneiric: python-pyside.qtcore python-pyside.qtgui libpyside-dev libshiboken-dev shiboken libgenrunner-dev python-qt4 python-qt4-dev python-sip-dev python-qt4-gl
+    precise: python-pyside.qtcore python-pyside.qtgui libpyside-dev libshiboken-dev shiboken libgenrunner-dev python-qt4 python-qt4-dev python-sip-dev python-qt4-gl
 python-qwt5-qt4:
   ubuntu: python-qwt5-qt4
 python-rospkg:
