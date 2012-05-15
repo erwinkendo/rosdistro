@@ -13,9 +13,9 @@ apr:
   ubuntu: libapr1-dev libaprutil1-dev
 ant:
   arch: apache-ant
-  ubuntu: 
+  ubuntu:
     lucid: ant1.8
-    maverick: ant 
+    maverick: ant
     natty: ant
     oneiric: ant
     precise: ant
@@ -31,30 +31,30 @@ assimp:
   fedora:
     source: {md5sum: d5137302d8f00241ee10e623b97f9d22, uri: 'https://kforge.ros.org/rosrelease/sourcedeps/assimp/assimp-2.0.86-1.rdmanifest'}
   ubuntu:
-    lucid: 
+    lucid:
       apt:
         packages: [assimp-dev]
-    maverick: 
+    maverick:
       apt:
         packages: [assimp-dev]
-    oneiric: 
+    oneiric:
       apt:
         packages: [assimp-dev]
-    precise: 
+    precise:
       apt:
         packages: [libassimp-dev]
 assimp-dev:
   ubuntu:
-    lucid: 
+    lucid:
       apt:
         packages: [assimp-dev]
-    maverick: 
+    maverick:
       apt:
         packages: [assimp-dev]
-    oneiric: 
+    oneiric:
       apt:
         packages: [assimp-dev]
-    precise: 
+    precise:
       apt:
         packages: [libassimp-dev]
 atlas:
@@ -352,7 +352,7 @@ hostapd:
 intltool:
   arch: intltool
   ubuntu: intltool
-  opensuse: intltool 
+  opensuse: intltool
   fedora: intltool
   gentoo: dev-util/intltool
   freebsd: intltool
@@ -399,7 +399,7 @@ libbluetooth-dev:
   ubuntu: libbluetooth-dev
 libdc1394-dev:
   ubuntu:
-    apt: 
+    apt:
       packages: [libdc1394-22-dev]
   arch:
     pacman:
@@ -605,7 +605,7 @@ libstdc++5:
   arch: libstdc++5
   ubuntu: libstdc++5
   debian: libstdc++5
-  opensuse: libstdc++33 
+  opensuse: libstdc++33
   freebsd: builtin
   fedora: libstdc++
 libswscale-dev:
@@ -623,7 +623,7 @@ libtiff4-dev:
   fedora: libtiff
 libtool:
   ubuntu:
-    apt: 
+    apt:
       packages: [libtool, libltdl-dev]
   debian:
     squeeze: libtool libltdl-dev
@@ -632,7 +632,7 @@ libtool:
   fedora: libtool libtool-ltdl-devel
   rhel: libtool libtool-ltdl-devel
   macports: libtool
-  arch: libtool
+  arch: libtool-multilib
   gentoo: sys-devel/libtool
   freebsd: libtool
 libusb-1.0-dev:
@@ -770,7 +770,7 @@ opengl:
 openjdk-6-jdk:
   ubuntu: openjdk-6-jdk
   arch: openjdk6
-  freebsd: openjdk6 
+  freebsd: openjdk6
 openni-dev:
   arch: openni
   ubuntu: openni-dev
@@ -897,7 +897,7 @@ unison:
 unison-gui:
   ubuntu:
     apt:
-      packages: [unison-gtk]      
+      packages: [unison-gtk]
 uuid:
   arch: util-linux
   ubuntu: uuid-dev
@@ -958,7 +958,7 @@ yaml-cpp:
     natty: yaml-cpp0.2.6-dev
     maverick: yaml-cpp0.2.6-dev
     lucid: yaml-cpp0.2.6-dev
-  fedora: yaml-cpp-devel 
+  fedora: yaml-cpp-devel
 yasm:
   ubuntu: yasm
 zlib:
