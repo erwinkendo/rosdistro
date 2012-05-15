@@ -5,5 +5,5 @@ swig-wx:
 pcl:
   arch: pcl-ros
 ros:
-  arch:
+  arch: ros-on-arch
 
